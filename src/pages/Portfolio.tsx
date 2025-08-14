@@ -203,7 +203,7 @@ export default function Portfolio() {
               {/* Core Technologies */}
               <div className="glow-border bg-gray-900 bg-opacity-50 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold mb-4 text-terminal-green terminal-prompt">
-                  Core Stack
+                  Tech Stack
                 </h3>
                 <div className="flex flex-wrap gap-3">
                   {[
