@@ -1,14 +1,14 @@
 import { useEffect, useRef, useState } from "react";
-import CursorGradient from "@/components/CursorGradient";
-import Navigation from "@/components/Navigation";
-import TypeWriter from "@/components/TypeWriter";
-import ProjectModal from "@/components/ProjectModal";
-import ProfileImage from "@/components/ProfileImage";
-import ScrollToTop from "@/components/ScrollToTop";
-import AnimatedCounter from "@/components/AnimatedCounter";
-import ProjectImage from "@/components/ProjectImage";
-import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
-import { projects, type Project } from "@/data/projects";
+import CursorGradient from "../components/CursorGradient";
+import Navigation from "../components/Navigation";
+import TypeWriter from "../components/TypeWriter";
+import ProjectModal from "../components/ProjectModal";
+import ProfileImage from "../components/ProfileImage";
+import ScrollToTop from "../components/ScrollToTop";
+import AnimatedCounter from "../components/AnimatedCounter";
+import ProjectImage from "../components/ProjectImage";
+import { useIntersectionObserver } from "../hooks/useIntersectionObserver";
+import { projects, type Project } from "../data/projects";
 import {
   Download,
   ExternalLink,
@@ -209,31 +209,24 @@ export default function Portfolio() {
                   {[
                     "React.js",
                     "Next.js",
-                    "Node.js",
-                    "Express",
                     "TypeScript",
                     "JavaScript",
+                    "Node.js",
+                    "Express",
+                    "GraphQL",
+                    "REST API",
                     "Shopify",
                     "Shopify Polaris",
-                    "Shopify API (REST & GraphQL)",
-                    "GraphQL",
+                    "Gadget.dev",
                     "PostgreSQL",
                     "AWS (Lambda, DynamoDB, API Gateway, S3, CloudFront)",
-                    "Vite",
                     "Tailwind CSS",
+                    "Redux",
                     "HTML5",
                     "CSS3",
-                    "Redux",
-                    "Gadget.dev",
-                    "Git & GitHub",
-                    "Figma (for UI collaboration)",
-                    "REST APIs",
-                    "Authentication (JWT, Cognito)",
-                    "Type-safe Forms (React Hook Form)",
                     "Shadcn UI",
-                    "ChatGPT",
-                    "GROK",
-                    "SPOTIFY",
+                    "Git",
+                    "Figma",
                   ].map((tech) => (
                     <span
                       key={tech}

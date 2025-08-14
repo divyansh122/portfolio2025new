@@ -100,7 +100,7 @@ export const projects: Project[] = [
     "Reduced hosting and infrastructure costs by leveraging AWS serverless services",
     "Achieved high availability and scalability without managing servers"
   ],
-  imageSrc: null,  // Replace with your actual image path
+  imageSrc: "/urlshortener.png",  // Replace with your actual image path
   liveLink: "http://my-url-shortener-app.s3-website.ap-south-1.amazonaws.com/",  // Replace with actual live project link
   sourceCode: "https://github.com/divyansh122/urlshorteneraws"  // Replace with your GitHub repo URL
 },
