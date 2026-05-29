@@ -8,9 +8,9 @@ export interface Project {
   features: string[];
   implementation: string;
   results: string[];
-  imageSrc:string;
-  liveLink:string;
-  sourceCode:string;
+  imageSrc: string | null;
+  liveLink: string | null;
+  sourceCode: string | null;
 }
 
 export const projects: Project[] = [
@@ -103,6 +103,31 @@ export const projects: Project[] = [
   imageSrc: "/urlshortener.png",  // Replace with your actual image path
   liveLink: "http://my-url-shortener-app.s3-website.ap-south-1.amazonaws.com/",  // Replace with actual live project link
   sourceCode: "https://github.com/divyansh122/urlshorteneraws"  // Replace with your GitHub repo URL
+},
+{
+  id: "pulseDiscounts",
+  title: "Pulse Discounts – Shopify App",
+  description: "A live Shopify app on the App Store that lets merchants create and display smart discount widgets — no code or design skills needed.",
+  summary: "Pulse Discounts is a published Shopify app that enables merchants to boost conversions with smart, customizable discount widgets. Built with React.js and Shopify Polaris, it integrates directly into merchant storefronts and admin dashboards with a seamless no-code setup experience.",
+  technologies: ["React.js", "Shopify Polaris", "Gadget.dev", "Shopify APIs", "JavaScript", "CSS"],
+  overview: "Pulse Discounts is a production Shopify app available on the Shopify App Store. It allows merchants to create eye-catching discount offers — percentage discounts, fixed discounts, and buy-more-save-more deals — and display them as smart widgets on their storefronts. The app is designed for non-technical merchants with a fully no-code setup flow.",
+  features: [
+    "Smart discount widgets: percentage, fixed, and tiered discount types",
+    "No-code setup — merchants configure everything from the Polaris admin UI",
+    "Storefront widget injection via Shopify App Blocks (Theme Extensions)",
+    "Real-time preview of discount widget appearance",
+    "Fully compatible with Online Store 2.0 themes",
+   
+  ],
+  implementation: "Frontend built with React.js and Shopify Polaris for the merchant-facing admin UI. Shopify App Blocks used for storefront widget injection without touching theme code. Backend powered by Gadget.dev for data persistence, API handling, and Shopify webhook processing. Deployed and listed on the official Shopify App Store.",
+  results: [
+    "Successfully published on the Shopify App Store",
+    "Live merchant installs with 5-star reviews",
+    "Delivered end-to-end from UI to App Store listing",
+  ],
+  imageSrc: "/pulse_discounts.png",
+  liveLink: "https://apps.shopify.com/pulse-discounts",
+  sourceCode: null,
 },
 {
   id: "sanskriti",

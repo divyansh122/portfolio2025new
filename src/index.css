@@ -343,6 +343,35 @@
     will-change: opacity, transform;
   }
 
+  /* Background grid pattern */
+  .bg-grid-pattern {
+    background-image: 
+      linear-gradient(rgba(0, 255, 0, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 255, 0, 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  /* Opacity utilities */
+  .opacity-3 { opacity: 0.03; }
+  .opacity-5 { opacity: 0.05; }
+
+  /* Smooth page transitions */
+  .page-enter {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  .page-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  /* Better card hover */
+  .glow-border:hover {
+    border-color: var(--terminal-green);
+    box-shadow: 0 0 30px rgba(0, 255, 0, 0.15), 0 0 60px rgba(0, 255, 0, 0.05);
+  }
+
   /* Accessibility improvements */
   @media (prefers-reduced-motion: reduce) {
     .fade-in,

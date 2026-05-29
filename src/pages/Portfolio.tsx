@@ -499,8 +499,8 @@ export default function Portfolio() {
                     href="mailto:divyanshgupta335@gmail.com"
                     className="flex items-center gap-4 p-4 rounded-lg bg-gray-800 bg-opacity-50 hover:bg-opacity-80 transition-all group"
                   >
-                    <div className="w-12 h-12 bg-terminal-border rounded-lg flex items-center justify-center group-hover:bg-terminal-green transition-colors">
-                      <Mail className="w-6 h-6 text-terminal-green group-hover:text-black" />
+                    <div className="w-12 h-12 bg-terminal-border rounded-lg flex items-center justify-center group-hover:bg-gray-700 transition-colors">
+                      <Mail className="w-6 h-6 text-terminal-green" />
                     </div>
                     <div>
                       <div className="text-terminal-green font-semibold">
@@ -518,8 +518,8 @@ export default function Portfolio() {
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 p-4 rounded-lg bg-gray-800 bg-opacity-50 hover:bg-opacity-80 transition-all group"
                   >
-                    <div className="w-12 h-12 bg-terminal-border rounded-lg flex items-center justify-center group-hover:bg-terminal-green transition-colors">
-                      <Linkedin className="w-6 h-6 text-terminal-green group-hover:text-black" />
+                    <div className="w-12 h-12 bg-terminal-border rounded-lg flex items-center justify-center group-hover:bg-gray-700 transition-colors">
+                      <Linkedin className="w-6 h-6 text-terminal-green" />
                     </div>
                     <div>
                       <div className="text-terminal-green font-semibold">

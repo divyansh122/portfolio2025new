@@ -113,7 +113,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                 href={project.liveLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="glow-border bg-transparent px-6 py-3 rounded text-terminal-green hover:bg-terminal-green  transition-all flex items-center justify-center gap-2 text-sm font-semibold"
+                className="glow-border bg-transparent px-6 py-3 rounded text-terminal-green hover:bg-terminal-border hover:text-white transition-all flex items-center justify-center gap-2 text-sm font-semibold"
               >
                 <ExternalLink className="w-4 h-4" />
                 View Live Project
