@@ -30,7 +30,7 @@ export const clientWorks: ClientWork[] = [
   },
   {
     id: "treadsafe",
-    clientName: "TreadSafe (US Client)",
+    clientName: "TreadSafe ",
     projectTitle: "TreadSafe – Business Website",
     description:
       "Designed and developed a professional website for a US-based client. Also ran Google Ads campaigns to drive targeted traffic and improve online visibility. Clean, fast, and conversion-focused.",
